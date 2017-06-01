@@ -1,6 +1,6 @@
-num=int(input("Vamos achar os divisores do número: "))
+num=int(input("Let's find the divisors of: "))
 div=[]
 for x in range(1,num):
     if num%x==0:
         div.append(x)
-print("Os divisores de ",num, "são: ", div)
+print("The divisors of ",num, "are: ", div)
