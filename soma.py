@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def primo(n):
-    '''função que verifica se um número n é primo'''
+    '''Função que verifica se um número n é primo'''
     é_primo = True   
     while é_primo:
         for i in range(2,int(n**0.5)+1):
